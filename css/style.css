@@ -1,7 +1,14 @@
 body{
     background: linear-gradient(to bottom right,rgb(28, 131, 171),rgb(245, 169, 184), white, rgb(28, 131, 171),rgb(245, 169, 184));
     background-attachment: fixed; /*edit*/
-    color: white;
+    font-size: large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+	text-shadow:
+		-1px -1px 0 rgb(28, 131, 171),
+		1px -1px 0 rgb(245, 169, 184),
+		-1px 1px 0 white,
+		1px 1px 0 rgb(28, 131, 171);
     height: 100%;
     width: 100%;
 }
