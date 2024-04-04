@@ -36,3 +36,11 @@ button{
     background: linear-gradient(to bottom right,rgb(91, 206, 250),rgb(245, 169, 184), white, rgb(91, 206, 250),rgb(245, 169, 184));
     background-attachment: fixed; /*edit*/
 }
+#poster{
+    max-width: 500px;
+    margin: auto;
+}
+#posterContent{
+    text-align: center;
+    margin: auto;
+}
