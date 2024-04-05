@@ -4,11 +4,7 @@ body{
     font-size: large;
     font-family: "Lucida Console", "Courier New", monospace;
     color: black;
-	text-shadow:
-		-1px -1px 0 rgb(28, 131, 171),
-		1px -1px 0 rgb(245, 169, 184),
-		-1px 1px 0 white,
-		1px 1px 0 rgb(28, 131, 171);
+
     height: 100%;
     width: 100%;
 }
@@ -50,4 +46,12 @@ button{
 #posterContent{
     text-align: center;
     margin: auto;
+}
+img{
+    text-align: center;
+    align-items: center;
+}
+#foto{
+    float: right;
+    width: 500px;
 }
